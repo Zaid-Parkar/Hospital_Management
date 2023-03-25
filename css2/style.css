@@ -1,0 +1,93 @@
+.html {
+    font-size: 62.5% !important;
+  
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+body{
+  background-color: #f5f9ff !important;
+}
+.btn{
+    text-align: center !important;
+    margin:auto !important;
+    align-items: center !important;
+}
+.background{
+  background-color:#f5f9ff !important;
+}
+.MAIN-HEAD{
+font-size: 5rem;
+margin-top: 1rem;
+}
+h1{
+font-size:2rem !important;
+}
+
+.group .active { background-color: #000 !important }
+
+h4{
+    font-size:1.5rem !important;
+    }
+    .container{
+      margin-top: 5%;
+    }
+    .card_choose{
+      align-items: center !important;
+      vertical-align: middle !important;
+     text-align: center !important;
+     
+    }
+    .card {
+      margin: 0 auto; /* Added */
+      float: none; /* Added */
+      /* Added */
+    }
+    
+th{
+  font-size: 1.2rem !important;
+}
+    td{
+      font-size: 1rem !important;
+    }
+
+@media(max-width:400px) {
+    html {
+      font-size: 50% !important;
+    }
+  
+  }
+  
+  @media(min-width:401px) and (max-width:672px) {
+    html {
+      font-size: 65% !important;
+    }
+  
+  }
+  
+  @media(min-width:673px) and (max-width:768px) {
+    html {
+      font-size: 80% !important;
+    }
+  
+  }
+  
+  @media(min-width:769px) and (max-width:1000px) {
+    html {
+      font-size: 80% !important;
+    }
+  
+  }
+  
+  @media(min-width:1001px) and (max-width:1200px) {
+    html {
+      font-size: 80%;
+    }
+  
+  }
+  
+  @media(min-width:1201px) {
+    html {
+      font-size: 100%;
+    }
+  
+  }
