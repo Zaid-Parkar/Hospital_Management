@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/style.css">
-        <title>Student-Register</title>
+        <title>Patient-Register</title>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <style>
@@ -31,6 +31,7 @@
         }
 
         .parent_div {
+            background-image: url('../img/loginbg.jpg') !important;
             width: 100vw !important;
             height: 100vh !important;
             display: grid !important;
@@ -38,6 +39,7 @@
         }
 
         .child_div {
+            
             width: 98vw !important;
             height: 80vh !important;
 
@@ -46,6 +48,7 @@
     </head>
 
     <body onload="myFunction()">
+    
     <div id="loading"></div>
         <div class=" parent_div">
             <div class=" child_div">
@@ -57,12 +60,12 @@
                                     <div class="card shadow" style="border-radius: 1rem;">
                                         <div class="card-body m-2">
 
-                                            <h1 class="mb-2 text-center">REGISTER</h1>
+                                            <h1 class="mb-2 text-center"><i>REGISTER</h1>
 
                                             <form action="registration.php" method="POST" autocomplete="off">
 
                                                 <div class="form-outline  ">
-                                                    <input type="text" id="form6Example3" name="RollNo" class="form-control " placeholder="Roll Number" required />
+                                                    <input type="text" id="form6Example3" name="AadharNo" class="form-control " placeholder="Aadhar Number" required />
                                                     <label class="form-label" for="form6Example3"></label>
                                                 </div>
 
@@ -71,11 +74,7 @@
                                                     <label class="form-label" for="form6Example3"></label>
                                                 </div>
                                                 <div class="form-outline ">
-                                                    <input type="text" id="form6Example3" name="Year" class="form-control" placeholder="Year" required />
-                                                    <label class="form-label" for="form6Example3"></label>
-                                                </div>
-                                                <div class="form-outline ">
-                                                    <input type="text" id="form6Example3" name="Branch" class="form-control" placeholder="Branch" required />
+                                                    <input type="text" id="form6Example3" name="Age" class="form-control" placeholder="Age" required />
                                                     <label class="form-label" for="form6Example3"></label>
                                                 </div>
                                                 <div class="form-outline ">

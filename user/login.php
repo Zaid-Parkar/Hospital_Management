@@ -69,7 +69,7 @@ window.location = "stu_login.php";
             } else {
                 ?>
 <script type="text/javascript">
-alert("Account for this RollNo is not Registered");
+alert("Account for this Aadhar Number is not Registered");
 window.location = "stu_login.php";
 </script>
 <?php
