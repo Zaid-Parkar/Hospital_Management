@@ -32,11 +32,12 @@
         }
 
         .parent_div {
-            background-image: url('../img/loginbg.jpg') !important;
+            background-image: url('../img/loginbg2.jpg') !important;
             width: 100vw !important;
             height: 100vh !important;
             display: grid !important;
             place-items: center !important;
+            /* //filter: blur(1px); */
         }
 
         .child_div {
