@@ -2,29 +2,66 @@
 session_start();
 if (!isset($_SESSION["username"])) {
     ?>
+    <script type="text/javascript">
+        window.location = "stu_login.php";
+    </script>
+    <?php
+}
+include "details.php";
+include "admin_header.php";
+
+$patientid = $_GET['patientid'];
+$sql = "SELECT * FROM `patient` where `patientid`='$patientid' ";
+$resultn = mysqli_query($conn, $sql);
+$row = $resultn->fetch_assoc();
+if ($row) {
+} else {
+    ?>
 <script type="text/javascript">
-window.location = "admin_login.php";
+alert("Something went wrong. Please try again");
+window.location = "rc_form.php";
 </script>
 <?php
 }
-include "details.php";
 ?>
-<?php
-include "admin_header.php";
-?>
-<?php
-  
-if(isset($_GET['delete'])){
-    $id = $_GET['delete'];
-    $delete = true;
-    $sql = "DELETE FROM `registration` WHERE `id` = $id";
-    $result = mysqli_query($conn, $sql);
-  }
-  
-  ?>
+<style>
+    /* Card */
+    .card2 {
+        margin-left: 2rem;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+        background-color: white;
+        border-radius: 1rem;
+
+    }
+
+    .card2-body {
+        padding: 0.2rem;
+        background-color: white;
+        border-radius: 1rem;
+        z-index: 99;
+        text-align: left;
+    }
+</style>
+
 <main id="main" class="main">
     <div class="pagetitle">
-        <h1>Patient History</h1>
+        <h1>Detailed Information</h1>
+        <div class="card2" style="width: 25rem; margin-top: 3rem;">
+            <div class="card2-body">
+                <div class="container" style="margin: 2rem;">
+              <p>Name : <?php echo$row['name']; ?></p>
+              <p>Patient ID : <?php echo$row['patientid']; ?></p>
+              <p>Age : <?php echo$row['age']; ?></p>
+              <p>Contact number :<?php echo$row['phoneno']; ?></p>
+             
+                </div>
+            </div>
+        </div>
+
+    <div class="pagetitle" style="margin-top: 10px;">
+        <h2>Patient Last Visit Information</h2>
         <div class="container my-4">
             <table class="table" id="myTable">
                 <thead>
@@ -32,8 +69,8 @@ if(isset($_GET['delete'])){
                         <th scope="col">S.No</th>
                         <th scope="col">Patient ID</th>
                         <th scope="col">Name</th>
-                        <th scope="col">Contact No</th>
                         <th scope="col">Admitted on</th>
+                        <th scope="col">Discharged on</th>
                         <th scope="col">Reason</th>
                         <th scope="col">Dr assigned</th>
                         <th scope="col">Actions</th>
@@ -41,7 +78,7 @@ if(isset($_GET['delete'])){
                 </thead>
                 <tbody>
                     <?php
-                    $sql = "SELECT * FROM `patient`";
+                   $sql = "SELECT * FROM `patient` where `patientid`='$patientid' ";
                     $result = mysqli_query($conn, $sql);
                     $id = 0;
                     while ($row = mysqli_fetch_assoc($result)) {
@@ -51,12 +88,12 @@ if(isset($_GET['delete'])){
                         <th scope='row'> <?php echo$id; ?></th>
                         <td><?php echo$row['patientid']; ?></td>
                         <td><?php echo$row['name']; ?></td>
-                        <td><?php echo$row['phoneno']; ?></td>
                         <td><?php echo$row['admitted']; ?></td>
+                        <td><?php echo$row['discharged']; ?></td>
                         <td><?php echo$row['medicalrsn']; ?></td>
                         <td><?php echo$row['drassign']; ?></td>
                         <td> 
-                        <a class="text-white" href="patient_details.php?patientid=<?php echo $row["patientid"];  ?>"> <button class=' btn btn-sm btn-primary my-5 text-white ' style="margin: 0.5rem !important;"> more details</button></a>
+                        <a class="text-white" href="patient_details.php?patientid=<?php echo $row["patientid"];  ?>"> <button class=' btn btn-sm btn-primary my-5 text-white ' style="margin: 0.5rem !important;"> Download/View Report</button></a>
                         </td>
 
                     </tr>
@@ -102,52 +139,8 @@ if(isset($_GET['delete'])){
         })
         </script>
 
-<style>
-    
-@media(max-width:400px) {
-    html {
-      font-size: 50% !important;
-    }
-  
-  }
-  
-  @media(min-width:401px) and (max-width:672px) {
-    html {
-      font-size: 65% !important;
-    }
-  
-  }
-  
-  @media(min-width:673px) and (max-width:768px) {
-    html {
-      font-size: 80% !important;
-    }
-  
-  }
-  
-  @media(min-width:769px) and (max-width:1000px) {
-    html {
-      font-size: 80% !important;
-    }
-  
-  }
-  
-  @media(min-width:1001px) and (max-width:1200px) {
-    html {
-      font-size: 80%;
-    }
-  
-  }
-  
-  @media(min-width:1201px) {
-    html {
-      font-size: 100%;
-    }
-  
-  }
-</style>
+
+        
         <?php
         include "admin_footer.php";
         ?>
-
-        

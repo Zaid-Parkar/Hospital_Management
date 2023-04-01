@@ -24,17 +24,17 @@ if(isset($_GET['delete'])){
   ?>
 <main id="main" class="main">
     <div class="pagetitle">
-        <h1>Student Registered</h1>
+        <h1>Patient details</h1>
         <div class="container my-4">
             <table class="table" id="myTable">
                 <thead>
                     <tr>
                         <th scope="col">S.No</th>
-                        <th scope="col">RollNo</th>
+                        <th scope="col">ID</th>
                         <th scope="col">Name</th>
-                        <th scope="col">Year</th>
-                        <th scope="col">Branch</th>
                         <th scope="col">Contact No</th>
+                        <th scope="col">Admitted on</th>
+                        <th scope="col">Reason</th>
                         <th scope="col">Actions</th>
                     </tr>
                 </thead>

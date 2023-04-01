@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$conn = mysqli_connect('localhost', 'root', '', 'test');
+$conn = mysqli_connect('localhost', 'root', '', 'hospital_management');
 
 if (isset($_POST['submit'])) {
 

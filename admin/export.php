@@ -1,4 +1,4 @@
-<?php $conn = mysqli_connect("localhost", "root", "", "test"); ?>
+<?php $conn = mysqli_connect("localhost", "root", "", "hospital_management"); ?>
 
 <table border = 1>
   <tr>

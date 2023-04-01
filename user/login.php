@@ -28,7 +28,8 @@ exit;
 
 include "details.php";
 
-$username = $password = "KPT4UuQLnPntxN";
+$username = $password = "";
+//KPT4UuQLnPntxN
 $err = "";
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {

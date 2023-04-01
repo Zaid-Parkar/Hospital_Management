@@ -1,3 +1,5 @@
+<?php $username = $_SESSION["username"]; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <style>
@@ -46,7 +48,7 @@
                     <li class="nav-item d-block d-lg-none"> <a class="nav-link nav-icon search-bar-toggle " href="#"> <i class="bi bi-search"></i> </a></li>
 
                     <li class="nav-item dropdown pe-3">
-                        <span class="d-none d-md-block  ps-2"><b style="font-size: 1.3rem;">WELCOME</b></span> </a>
+                        <span class="d-none d-md-block  ps-2"><b style="font-size: 1.3rem;">Welcome Dr.<?php echo $username ?></b></span> </a>
 
             </nav>
         </header>
@@ -56,8 +58,9 @@
                 <li class="nav-heading">Menu</li>
 
                 <li class="nav-item"> <a class="nav-link collapsed  " href="admin_dashboard.php"> <i class="bi bi-grid"></i> <span>Dashboard</span> </a></li>
-                <li class="nav-item"> <a class="nav-link collapsed" href="stu_reg.php"> <i class="bi bi-journal-text"></i> <span> Student registered</span> </a></li>
-                <li class="nav-item"> <a class="nav-link collapsed" href="rc_form.php"> <i class="bi bi-journal-text"></i> <span>Concession form</span> </a></li>
+                <li class="nav-item"> <a class="nav-link collapsed" href="stu_reg.php"> <i class="bi bi-journal-text"></i> <span> Patient Details</span> </a></li>
+                <li class="nav-item"> <a class="nav-link collapsed" href="chat.php"> <i class="bi bi-journal-text"></i> <span>Chat with patient</span> </a></li>
+                <li class="nav-item"> <a class="nav-link collapsed" href="dr_prescription.php"> <i class="bi bi-journal-text"></i> <span>Patient prescription</span> </a></li>
                 <li class="nav-item"> <a class="nav-link collapsed" href="logout.php"> <i class="bi bi-box-arrow-in-right"></i> <span>Logout</span> </a></li>
 
             </ul>
