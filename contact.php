@@ -8,7 +8,7 @@
 
   <meta name="copyright" content="MACode ID, https://macodeid.com/">
 
-  <title>One Health - Medical Center HTML5 Template</title>
+  <title>Lifeline</title>
 
   <link rel="stylesheet" href="assets2/css/maicons.css">
 
@@ -50,7 +50,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="#"><span class="text-primary">One</span>-Health</a>
+        <a class="navbar-brand" href="#"><span class="text-primary">Life</span>line</a>
 
         <form action="#">
           <div class="input-group input-navbar">
@@ -146,7 +146,7 @@
           </div>
         </div>
         <div class="col-lg-8 wow fadeInRight">
-          <h1 class="font-weight-normal mb-3">Get easy access of all features using One Health Application</h1>
+          <h1 class="font-weight-normal mb-3">Get easy access of all features using Lifeline Application</h1>
           <a href="#"><img src="assets2/img/google_play.svg" alt=""></a>
           <a href="#" class="ml-2"><img src="assets2/img/app_store.svg" alt=""></a>
         </div>
