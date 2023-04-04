@@ -65,7 +65,7 @@
                                             <form action="registration.php" method="POST" autocomplete="off">
 
                                                 <div class="form-outline  ">
-                                                    <input type="text" id="form6Example3" name="AadharNo" class="form-control " placeholder="Aadhar Number" required />
+                                                    <input type="text" id="form6Example3" name="RollNo" class="form-control " placeholder="RollNo" required />
                                                     <label class="form-label" for="form6Example3"></label>
                                                 </div>
 

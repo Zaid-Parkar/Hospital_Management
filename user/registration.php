@@ -4,8 +4,8 @@ include "details.php";
 $RollNo = $_POST['RollNo'];
 $username = $password = $confirm_password = "";
 $username_err = $password_err = $confirm_password_err = "";
-$Year = $_POST['Year'];
-$Branch = $_POST['Branch'];
+//$Year = $_POST['Year'];
+//$Branch = $_POST['Branch'];
 $Contactno = $_POST['Contactno'];
 $Email=$_POST['Email'];
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
@@ -81,10 +81,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $Contactno = trim($_POST['Contactno']);
     }
     if (empty($username_err) && empty($password_err) && empty($confirm_password_err)) {
-        $sql = "INSERT INTO registration (RollNo,Name,Year,Branch,Contactno, Email,Password) VALUES (?,?,?,?,?,?,?)";
+        $sql = "INSERT INTO registration (RollNo,Name,Contactno, Email,Password) VALUES (?,?,?,?,?)";
         $stmt = mysqli_prepare($conn, $sql);
         if ($stmt) {
-            mysqli_stmt_bind_param($stmt, "sssssss", $RollNo, $param_username, $Year, $Branch, $Contactno, $Email,$param_password);
+            mysqli_stmt_bind_param($stmt, "sssss", $RollNo, $param_username, $Contactno, $Email,$param_password);
 
             $param_username = $username;
             $param_password = password_hash($password, PASSWORD_DEFAULT);

@@ -61,6 +61,7 @@
                 <li class="nav-item"> <a class="nav-link collapsed" href="stu_reg.php"> <i class="bi bi-journal-text"></i> <span> Patient Details</span> </a></li>
                 <li class="nav-item"> <a class="nav-link collapsed" href="chat.php"> <i class="bi bi-journal-text"></i> <span>Chat with patient</span> </a></li>
                 <li class="nav-item"> <a class="nav-link collapsed" href="dr_prescription.php"> <i class="bi bi-journal-text"></i> <span>Patient prescription</span> </a></li>
+                <li class="nav-item"> <a class="nav-link collapsed" href="view.php"> <i class="bi bi-journal-text"></i> <span>Patient Documnents</span> </a></li>
                 <li class="nav-item"> <a class="nav-link collapsed" href="logout.php"> <i class="bi bi-box-arrow-in-right"></i> <span>Logout</span> </a></li>
 
             </ul>

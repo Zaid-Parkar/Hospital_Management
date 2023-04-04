@@ -6,7 +6,7 @@
 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <meta name="copyright" content="MACode ID, https://macodeid.com/">
+  <meta name="copyright" content="Lifeline, https://macodeid.com/">
 
   <title>Lifeline</title>
 
@@ -83,7 +83,7 @@
               <a class="nav-link" href="contact.php">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary ml-lg-3" href="#">Login / Register</a>
+              <a class="btn btn-primary ml-lg-3" href="#">Get started</a>
             </li>
           </ul>
         </div> <!-- .navbar-collapse -->
@@ -146,7 +146,7 @@
           </div>
         </div>
         <div class="col-lg-8 wow fadeInRight">
-          <h1 class="font-weight-normal mb-3">Get easy access of all features using Lifeline Application</h1>
+          <h1 class="font-weight-normal mb-3">Get easy access of all features using Lifeline Website</h1>
           <a href="#"><img src="assets2/img/google_play.svg" alt=""></a>
           <a href="#" class="ml-2"><img src="assets2/img/app_store.svg" alt=""></a>
         </div>
@@ -202,7 +202,7 @@
 
       <hr>
 
-      <p id="copyright">Copyright &copy; 2020 <a href="https://macodeid.com/" target="_blank">MACode ID</a>. All right reserved</p>
+      <p id="copyright">Copyright &copy; 2020 <a href="https://macodeid.com/" target="_blank">Lifeline</a>. All right reserved</p>
     </div>
   </footer>
 

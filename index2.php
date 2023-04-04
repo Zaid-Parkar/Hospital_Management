@@ -29,6 +29,11 @@
             width: 100vw !important;
             height: 70vh !important;
         }
+        .Background {
+  background-image: url('img/bg\ \(1\)-modified.jpg') !important;
+  background-size: cover;
+ 
+}
 </style>
     <head>
         <link href="img/RAIT_LOGO.png" rel="icon">
@@ -43,7 +48,7 @@
         
     </head>
 
-    <body onload="myFunction()" class="background">
+    <body onload="myFunction()" class="Background">
     <div id="loading"></div>
 <nav>
 <!--<picture>

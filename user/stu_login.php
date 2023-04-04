@@ -32,7 +32,7 @@
         }
 
         .parent_div {
-            background-image: url('../img/loginbg2.jpg') !important;
+            background-image: url('../img/loginbg.jpg') !important;
             width: 100vw !important;
             height: 100vh !important;
             display: grid !important;
@@ -65,7 +65,7 @@
                                             <form action="login.php" method="POST" autocomplete="off">
 
                                                 <div class="form-outline mb-1 ">
-                                                    <input type="text" id="form6Example3" name="AadharNo" class="form-control " placeholder="Aadhar Number" required />
+                                                    <input type="text" id="form6Example3" name="RollNo" class="form-control " placeholder="Aadhar Number" required />
                                                     <label class="form-label" for="form6Example3"></label>
                                                 </div>
 

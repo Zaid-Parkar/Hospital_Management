@@ -20,6 +20,7 @@
         }
 
         .parent_div {
+            background-image: url('../img/loginbg.jpg') !important;
             width: 100vw !important;
             height: 100vh !important;
             display: grid !important;
