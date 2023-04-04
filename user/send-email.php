@@ -32,11 +32,11 @@ $mail->Username = "zaids.parkar@gmail.com";
 $mail->Password = "ewosiznpalcgkuzo";
 
 $mail->setFrom($email, $name);
-$mail->addAddress("zaid.parkar@gmail.com", "Zaid");
+$mail->addAddress("amiteshgfg19@gmail.com", "Lifeline Hospital");
 
 $mail->Subject = $subject;
 $mail->Body = $message;
 
 $mail->send();
 
-header("Location: sent.html");
+header("Location: sent.php");

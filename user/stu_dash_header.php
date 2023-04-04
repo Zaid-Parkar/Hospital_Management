@@ -75,7 +75,7 @@ $row = $resultn->fetch_assoc();
 
                 <li class="nav-item"> <a class="nav-link  collapsed" href="file.php"> <i class="bi bi-envelope"></i> <span>Upload</span> </a></li>
 
-                <li class="nav-item"> <a class="nav-link  collapsed" href="contact.php"> <i class="bi bi-envelope"></i> <span>Contact</span> </a></li>
+                <li class="nav-item"> <a class="nav-link  collapsed" href="form.php"> <i class="bi bi-envelope"></i> <span>Contact</span> </a></li>
 
                 <li class="nav-item"> <a class="nav-link collapsed" href="logout.php"> <i class="bi bi-box-arrow-in-right"></i> <span>Logout</span> </a></li>
 
