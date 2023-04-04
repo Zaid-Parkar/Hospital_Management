@@ -44,26 +44,7 @@ include "admin_header.php";
                 </div>
             </div>
         </div>
-        <hr>
-        <h2 class="mb-3 text-center"><b>GENERATE REPORT</b></h2>
-
-        <div class="frm m-1">
-            <div class="  align-items-center mt-1">
-                <div class="container mt-2">
-                    <div class="row justify-content-center">
-                        <div class="col-md-6 ">
-
-                        <div class="col-md-12 " style="text-align: center !important;margin: auto !important;">
-                                           <a href="export.php"> <button type="submit" class="col-md-4 btn  btn-rounded text-white" style="background-color: #737ee0;">Generate report</button></a>
-                                        </div>
-
-                                  
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        
         </div>
         <?php
         include "admin_footer.php";

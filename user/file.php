@@ -48,7 +48,7 @@ $name=$_SESSION["username"];
     value="<?php echo $name; ?>">
     
     <input class="my-2" type="file" name="image">
-    <input class="my-2" type="text" name="title" placeholder="File name"><br>
+    <input class="my-2" type="text" name="title" placeholder="title"><br>
     <input  class="my-2" type="submit" name="submit" value="Upload">
    
 </form>

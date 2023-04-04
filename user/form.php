@@ -38,10 +38,10 @@ include "stu_dash_header.php";
 <h1 class="m-3">Contact</h1>
     
     <form method="post" action="send-email.php">
-        <label class="m-2" for="name">Name</label>
+        <label class="m-2" for="name">Dr name</label>
         <input class="m-2" type="text" name="name" id="name" required> <br>
         
-        <label class="m-2" for="email">Emailid</label>
+        <label class="m-2" for="email">Your email</label>
         <input class="m-2" type="email" name="email" id="email" required><br>
         
         <label class="m-2" for="subject">Subject</label>

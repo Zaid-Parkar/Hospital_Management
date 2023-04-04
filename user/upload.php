@@ -13,6 +13,8 @@ if ($db->connect_error) {
     die("Connection failed: " . $db->connect_error);  
 }
 $patientid = $_POST['patientid'];
+$title = $_POST['title'];
+
 // If file upload form is submitted 
 $status = $statusMsg = ''; 
 if(isset($_POST["submit"])){ 
@@ -29,7 +31,7 @@ if(isset($_POST["submit"])){
             $imgContent = addslashes(file_get_contents($image)); 
          
             // Insert image content into database 
-            $insert = $db->query("INSERT into images (image, created,patientid) VALUES ('$imgContent', NOW(),'$patientid')"); 
+            $insert = $db->query("INSERT into images (image,created,patientid,title) VALUES ('$imgContent', NOW(),'$patientid','$title')"); 
              
             if($insert){ 
                 $status = 'success'; 
