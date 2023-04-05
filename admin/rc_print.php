@@ -56,7 +56,7 @@ window.location = "admin_login.php";
                 <div class="left">
 
                     <p class="name" style=" margin-top: 9.3cm; margin-left: 3.6cm;width: 8cm;">
-                        <?PHP echo $row["Name"] ?>
+                        <?PHP echo $row["name"] ?>
                     </p>
 
                     <p class="DOC" style=" margin-top: 1.0cm; margin-left: 6.2cm;width: 3.8cm;">
@@ -91,7 +91,7 @@ window.location = "admin_login.php";
             <div class="col-md-8">
                 <div class="right" style="margin-left: 4cm;">
                     <p class="name" style=" margin-top: 8.8cm; margin-left: 4.8cm;">
-                        <?PHP echo $row["Name"] ?>
+                        <?PHP echo $row["name"] ?>
                     <div style=" margin-top: 0.7cm;display: flex;width: 35cm;">
                         <p class="Contact" style=" margin-top: 0.1cm; margin-left: 1.5cm;"><?php echo $row["AY"]; ?> </p>
                         <p class="Contact" style=" margin-top: 0.1cm; margin-left: 2cm;"><?php echo $row["AM"]; ?> </p>

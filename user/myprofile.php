@@ -39,17 +39,14 @@ include "stu_dash_header.php";
 
             <div class="card2-body">
                 <div class="container" style="margin: 1rem;">
-                    <p>Name : <?php echo "   " . $row["Name"] . ""; ?> </p>
+                    <p>Name : <?php echo "   " . $row["name"] . ""; ?> </p>
 
-                    <p>Roll no : <?php echo "   " . $row["RollNo"] . ""; ?> </p>
+                   
+                    <p>Patientid : <?php echo "   " . $row["patientid"] . ""; ?> </p>
                     </p>
-                    <p>Year : <?php echo "   " . $row["Year"] . ""; ?> </p>
+                    <p>Aadharno : <?php echo "   " . $row['aadharno'] . ""; ?> </p>
                     </p>
-                    <p>Branch : <?php echo "   " . $row["Branch"] . ""; ?> </p>
-                    </p>
-                    <p>Branch : <?php echo "   " . $row['Contactno'] . ""; ?> </p>
-                    </p>
-                    <p>Email-id : <?php echo "   " . $row['Email'] . ""; ?> </p>
+                    <p>Email-id : <?php echo "   " . $row['email'] . ""; ?> </p>
                     </p>
                     <!-- <a href="update_details.php?id=<?php echo $row["id"]; ?>">Update details</a> -->
 

@@ -93,7 +93,8 @@ window.location = "rc_form.php";
                         <td><?php echo$row['medicalrsn']; ?></td>
                         <td><?php echo$row['drassign']; ?></td>
                         <td> 
-                        <a class="text-white" href="patient_details.php?patientid=<?php echo $row["patientid"];  ?>"> <button class=' btn btn-sm btn-primary my-5 text-white ' style="margin: 0.5rem !important;"> Download/View Report</button></a>
+                           
+                        <a class="text-white" href="../pdf/<?php echo $patientid ?>.pdf"><button class=' btn btn-sm btn-primary my-5 text-white ' style="margin: 0.5rem !important;"> Download/View Report</button></a>
                         </td>
 
                     </tr>

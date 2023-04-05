@@ -100,7 +100,7 @@ $newBDate = date("d/m/Y", strtotime($orgDate));
                     <div class="card shadow p-3 " style="width: 23rem;padding-left: 3rem !important;">
                     <p style="margin-bottom: 1rem;"> <h4><u>Verify Details</u></h4></p>
                     <p><b>Name :</b>
-                        <i><?PHP echo $row["Name"] ?></i>
+                        <i><?PHP echo $row["name"] ?></i>
                     </p>
                     <p><b>RollNo :</b>
                        <i> <?PHP echo $row["RollNo"] ?></i>

@@ -26,7 +26,7 @@
     <td>  </td>
     <td>  </td>
 
-    <td> <?php echo $row["Name"]; ?> </td>
+    <td> <?php echo $row["name"]; ?> </td>
     <td>  </td>
     <td> <?php echo $row["DOB"]; ?> </td>
     <td> <?php echo "Year ".$row["AY"]; ?> <br>
