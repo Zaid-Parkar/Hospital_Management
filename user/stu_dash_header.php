@@ -1,7 +1,7 @@
 <?php
 include "details.php";
 $RNO = $_SESSION["username"];
-$sql = "SELECT * FROM `registration` where `RollNo`='$RNO' ";
+$sql = "SELECT * FROM `patient` where `patientid`='$RNO' ";
 $resultn = mysqli_query($conn, $sql);
 $row = $resultn->fetch_assoc();
 ?>
@@ -58,7 +58,7 @@ $row = $resultn->fetch_assoc();
 
                     <li class="nav-item dropdown pe-3">
                         <span class="d-none d-md-block  ps-2"><b style="font-size: 1.3rem !important;">
-                                <?php echo "Welcome " . $row["Name"] . ""; ?>
+                                <?php echo "Welcome " . $row["name"] . ""; ?>
                             </b></span> </a>
 
             </nav>
@@ -71,7 +71,7 @@ $row = $resultn->fetch_assoc();
 
                 <li class="nav-item"> <a class="nav-link collapsed " href="stu_dashboard.php"> <i class="bi bi-grid"></i> <span>Dashboard</span> </a></li>
 
-                <!-- <li class="nav-item"> <a class="nav-link collapsed" href="concession_form_input.php"> <i class="bi bi-journal-text"></i> <span>Concession form</span> </a></li> -->
+                <li class="nav-item"> <a class="nav-link collapsed" href="view_prescription.php"> <i class="bi bi-journal-text"></i> <span>Your Prescription</span> </a></li>
 
                 <li class="nav-item"> <a class="nav-link  collapsed" href="file.php"> <i class="bi bi-envelope"></i> <span>Upload</span> </a></li>
 

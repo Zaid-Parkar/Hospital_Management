@@ -36,17 +36,26 @@ if(isset($_POST["submit"])){
             if($insert){ 
                 $status = 'success'; 
                 $statusMsg = "File uploaded successfully."; 
+                ?>
+                <script type="text/javascript">
+                alert("File uploaded successfully.!");
+                window.location = "file.php";
+                </script> 
+                <?php
             }else{ 
                 $statusMsg = "File upload failed, please try again."; 
+                echo $statusMsg; 
             }  
         }else{ 
             $statusMsg = 'Sorry, only JPG, JPEG, PNG, & GIF files are allowed to upload.'; 
+            echo $statusMsg; 
         } 
     }else{ 
         $statusMsg = 'Please select an image file to upload.'; 
+        echo $statusMsg; 
     } 
 } 
  
 // Display status message 
-echo $statusMsg; 
+
 ?>

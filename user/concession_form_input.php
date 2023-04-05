@@ -9,7 +9,7 @@ window.location = "stu_login.php";
 }
 include "details.php";
 include "stu_dash_header.php";
-$name = $row["Name"];
+$name = $row["name"];
 $RNO = $row["RollNo"];
 $branch = $row["Branch"];
 ?>
