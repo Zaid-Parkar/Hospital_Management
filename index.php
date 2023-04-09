@@ -51,7 +51,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="#"><span class="text-primary">Life</span>line</a>
+        <a class="navbar-brand" href="index.php "><span class="text-primary">Life</span>line</a>
 
         <form action="#">
           <div class="input-group input-navbar">
@@ -84,7 +84,7 @@
               <a class="nav-link" href="contact.php">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary ml-lg-3" href="#">Get started</a>
+              <a class="btn btn-primary ml-lg-3" href="index2.php">Get started</a>
             </li>
           </ul>
         </div> <!-- .navbar-collapse -->
