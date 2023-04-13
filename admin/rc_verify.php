@@ -12,7 +12,7 @@
     }
     
   </style>
-  <link href="../img/RAIT_LOGO.png" rel="icon">
+   <link href="../img/hospitallogo.webp" rel="icon">
  <body onload="myFunction()">
  <div id="loading"></div>
 <?php

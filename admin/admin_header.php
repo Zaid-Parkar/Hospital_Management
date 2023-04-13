@@ -24,7 +24,7 @@
         <meta name="robots" content="noindex, nofollow">
         <meta content="" name="description">
         <meta content="" name="keywords">
-        <link href="../img/RAIT_LOGO.png" rel="icon">
+         <link href="../img/hospitallogo.webp" rel="icon">
        
         
         <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
