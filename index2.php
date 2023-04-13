@@ -79,7 +79,7 @@
                     <div class="card shadow " style="width: 18rem;">
                         <img src="img/admin_logo.webp" class="card-img-top" alt="..." style="height: 18rem;">
                         <div class="card-body ">
-                            <a href="admin/admin_login.php" class="btn btn-primary ">ADMIN LOGIN</a>
+                            <a href="admin/admin_login.php" class="btn btn-primary ">Doctor LOGIN</a>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                     <div class="card shadow " style="width: 18rem;">
                         <img src="img/admin_logo.webp" class="card-img-top" alt="..." style="height: 18rem;">
                         <div class="card-body ">
-                            <a href="admin/admin_login.php" class="btn btn-primary ">ADMIN LOGIN</a>
+                            <a href="admin/reg_admin.php" class="btn btn-primary ">ADMIN LOGIN</a>
                         </div>
                     </div>
                 </div>
