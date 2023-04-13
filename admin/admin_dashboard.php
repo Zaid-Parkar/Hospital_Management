@@ -31,6 +31,7 @@ if(isset($_GET['delete'])){
                     <tr>
                         <th scope="col">S.No</th>
                         <th scope="col">Patient ID</th>
+                        <th scope="col">Case ID</th>
                         <th scope="col">Name</th>
                         <th scope="col">Contact No</th>
                         <th scope="col">Admitted on</th>
@@ -50,6 +51,7 @@ if(isset($_GET['delete'])){
                     <tr>
                         <th scope='row'> <?php echo$id; ?></th>
                         <td><?php echo$row['patientid']; ?></td>
+                        <td><?php echo$row['caseid']; ?></td>
                         <td><?php echo$row['name']; ?></td>
                         <td><?php echo$row['phoneno']; ?></td>
                         <td><?php echo$row['admitted']; ?></td>

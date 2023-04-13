@@ -66,7 +66,7 @@
 
             <div class="row child_div">
                 <p style="margin-bottom: 3rem;"><b class="MAIN-HEAD"></b></p> 
-                <div class="col-6 ">
+                <div class="col-4 ">
                     <div class="card shadow " style="width: 18rem;">
                         <img src="img/patientgfg.png" class="card-img-top" alt="..." style="height: 18rem;">
                         <div class="card-body">
@@ -75,7 +75,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-4">
+                    <div class="card shadow " style="width: 18rem;">
+                        <img src="img/admin_logo.webp" class="card-img-top" alt="..." style="height: 18rem;">
+                        <div class="card-body ">
+                            <a href="admin/admin_login.php" class="btn btn-primary ">ADMIN LOGIN</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-4">
                     <div class="card shadow " style="width: 18rem;">
                         <img src="img/admin_logo.webp" class="card-img-top" alt="..." style="height: 18rem;">
                         <div class="card-body ">

@@ -72,6 +72,8 @@ $row = $resultn->fetch_assoc();
                 <li class="nav-item"> <a class="nav-link collapsed " href="stu_dashboard.php"> <i class="bi bi-grid"></i> <span>Dashboard</span> </a></li>
 
                 <li class="nav-item"> <a class="nav-link collapsed" href="view_prescription.php"> <i class="bi bi-journal-text"></i> <span>Your Prescription</span> </a></li>
+                
+                <li class="nav-item"> <a class="nav-link collapsed" href="patient_report.php"> <i class="bi bi-journal-text"></i> <span>Your Reports</span> </a></li>
 
                 <li class="nav-item"> <a class="nav-link  collapsed" href="file.php"> <i class="bi bi-envelope"></i> <span>Upload</span> </a></li>
 

@@ -68,6 +68,7 @@ window.location = "rc_form.php";
                     <tr>
                         <th scope="col">S.No</th>
                         <th scope="col">Patient ID</th>
+                        <th scope="col">Case ID</th>
                         <th scope="col">Name</th>
                         <th scope="col">Admitted on</th>
                         <th scope="col">Discharged on</th>
@@ -78,6 +79,7 @@ window.location = "rc_form.php";
                 </thead>
                 <tbody>
                     <?php
+                    
                    $sql = "SELECT * FROM `patient` where `patientid`='$patientid' ";
                     $result = mysqli_query($conn, $sql);
                     $id = 0;
@@ -87,6 +89,7 @@ window.location = "rc_form.php";
                     <tr>
                         <th scope='row'> <?php echo$id; ?></th>
                         <td><?php echo$row['patientid']; ?></td>
+                        <td><?php echo$row['caseid']; ?></td>
                         <td><?php echo$row['name']; ?></td>
                         <td><?php echo$row['admitted']; ?></td>
                         <td><?php echo$row['discharged']; ?></td>
@@ -94,7 +97,7 @@ window.location = "rc_form.php";
                         <td><?php echo$row['drassign']; ?></td>
                         <td> 
                            
-                        <a class="text-white" href="../pdf/<?php echo $patientid ?>.pdf"><button class=' btn btn-sm btn-primary my-5 text-white ' style="margin: 0.5rem !important;"> Download/View Report</button></a>
+                        <a class="text-white" href="../pdf/<?php echo$row['caseid']; ?>.pdf"><button class=' btn btn-sm btn-primary my-5 text-white ' style="margin: 0.5rem !important;"> Download/View Report</button></a>
                         </td>
 
                     </tr>
