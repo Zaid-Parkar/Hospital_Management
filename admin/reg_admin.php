@@ -72,7 +72,7 @@
                         <img src="../img/patientgfg.png" class="card-img-top" alt="..." style="height: 18rem;">
                         <div class="card-body">
 
-                            <a href="../user/stu_login.php" class="btn btn-primary">Regestir</a>
+                            <a href="newreg.php" class="btn btn-primary">Regestir</a>
                         </div>
                     </div>
                 </div>

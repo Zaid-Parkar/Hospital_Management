@@ -1,7 +1,7 @@
 <?php
 include "details.php";
 $RNO = $_SESSION["username"];
-$sql = "SELECT * FROM `patient` where `patientid`='$RNO' ";
+$sql = "SELECT * FROM `registration` where `patientid`='$RNO' ";
 $resultn = mysqli_query($conn, $sql);
 $row = $resultn->fetch_assoc();
 ?>
