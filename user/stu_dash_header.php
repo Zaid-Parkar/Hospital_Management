@@ -11,7 +11,7 @@ $row = $resultn->fetch_assoc();
 <html lang="en">
 <style>
     
-  #loading{
+  /* #loading{
   top: 0px;
     position: fixed;
     width: 100%;
@@ -20,7 +20,7 @@ $row = $resultn->fetch_assoc();
     url('../img/1490.gif')
      no-repeat center center;	
     z-index: 99999;
-  }
+  } */
   
 </style>
     <head>
