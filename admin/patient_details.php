@@ -71,7 +71,7 @@ window.location = "rc_form.php";
                         <th scope="col">Case ID</th>
                         <th scope="col">Name</th>
                         <th scope="col">Admitted on</th>
-                        <th scope="col">Discharged on</th>
+                        <!-- <th scope="col">Discharged on</th> -->
                         <th scope="col">Reason</th>
                         <th scope="col">Dr assigned</th>
                         <th scope="col">Actions</th>
@@ -92,7 +92,7 @@ window.location = "rc_form.php";
                         <td><?php echo$row['caseid']; ?></td>
                         <td><?php echo$row['name']; ?></td>
                         <td><?php echo$row['admitted']; ?></td>
-                        <td><?php echo$row['discharged']; ?></td>
+                        <!-- <td><?php echo$row['discharged']; ?></td> -->
                         <td><?php echo$row['medicalrsn']; ?></td>
                         <td><?php echo$row['drassign']; ?></td>
                         <td> 
