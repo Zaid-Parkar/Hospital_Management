@@ -10,61 +10,107 @@ if (!isset($_SESSION["username"])) {
 
 include "details.php";
 include "stu_dash_header.php";
-$name=$_SESSION["username"];
+$patientid=$_SESSION["username"];
 
 ?>
-<style>
-    /* Card */
-    .card2 {
-        margin-left: 2rem;
-        border: none;
-        border-radius: 5px;
-        box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
-        background-color: white;
-        border-radius: 1rem;
 
-    }
-
-    .card2-body {
-        padding: 0.2rem;
-        background-color: white;
-        border-radius: 1rem;
-        z-index: 99;
-        text-align: left;
-    }
-</style>
 <main id="main" class="main">
-    <div class="pagetitle">
-        <h1>Upload Documents</h1>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
-        <div class="card2" style="width: 25rem; margin-top: 3rem;">
+	<div class="pagetitle">
+		<h1>Patient Report</h1>
+		<div class="frm m-5">
+			<div class="  align-items-center mt-5">
+				<div class="container mt-5">
+					<div class="row justify-content-center">
+						<div class="col-md-6 ">
+							<div class="card" style="border-radius: 1rem;">
+								<div class="card-body m-2">
 
-            <div class="card2-body">
-                <div class="container" style="margin: 1rem;">
-                
-                <form action="upload.php" method="post" enctype="multipart/form-data">
-    <label>Select Image File:</label> <br>
-    <input type="hidden" id="patientid" name="patientid" 
-    value="<?php echo $name; ?>">
-    
-    <input class="my-2" type="file" name="image">
-    <input class="my-2" type="text" name="title" placeholder="title"><br>
-    <input  class="my-2" type="submit" name="submit" value="Upload">
-   
-</form>
- 
-                </div>
-            </div>
-        </div>
-    </div>
+									<h2 class="mb-3 text-center"><b>Upload your other reports</b></h2>
+									<strong>Enter report name and Upload pdf</strong>
+									<form method="post" enctype="multipart/form-data">
+										<?php
+										// If submit button is clicked
+										if (isset($_POST['submit'])) {
+											// get name from the form when submitted
+											$caseid = $_POST['filename'];
+											
 
+											if (isset($_FILES['pdf_file']['name'])) {
+												// If the ‘pdf_file’ field has an attachment
+												$file_name = $_FILES['pdf_file']['name'];
+												$file_tmp = $_FILES['pdf_file']['tmp_name'];
+
+												// Move the uploaded pdf file into the pdf folder
+												move_uploaded_file($file_tmp, "../pdf/$caseid.pdf");
+
+												// Insert the submitted data from the form into the table
+												$insertquery = "INSERT INTO pdf_data(patientid,caseid,filename) VALUES('$patientid','$caseid','$file_name')";
+
+
+												// Execute insert query
+												$iquery = mysqli_query($conn, $insertquery);
+
+												if ($iquery) {
+													?>
+													<div class="alert alert-success alert-dismissible fade show text-center">
+														<a class="close" data-dismiss="alert" aria-label="close">
+															×
+														</a>
+														<strong>Success!</strong> Data submitted successfully.
+													</div>
+													<?php
+												} else {
+													?>
+													<div class="alert alert-danger alert-dismissible fade show text-center">
+														<a class="close" data-dismiss="alert" aria-label="close">
+															×
+														</a>
+														<strong>Failed!</strong> Try Again!
+													</div>
+													<?php
+												}
+											} else {
+												?>
+												<div class="alert alert-danger alert-dismissible fade show text-center">
+													<a class="close" data-dismiss="alert" aria-label="close">
+														×
+													</a>
+													<strong>Failed!</strong> File must be uploaded in PDF format!
+												</div>
+												<?php
+											} // end if
+										} // end if
+										?>
+
+										<div class="form-input py-2">
+                                        <div class="form-group">
+												<input type="file" name="pdf_file" class="form-control" accept=".pdf" required />
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Enter Report name" name="filename">
+											</div>
+											
+											<div class="form-group">
+												<input type="submit" class="btnRegister" name="submit" value="Submit">
+											</div>
+										</div>
+									</form>
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
     <?php
     include "stu_dash_footer.php";
     ?>
-
-
-
-
 
 
 
