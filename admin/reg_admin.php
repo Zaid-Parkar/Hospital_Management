@@ -80,7 +80,7 @@
                     <div class="card shadow " style="width: 18rem;">
                         <img src="../img/admin_logo.webp" class="card-img-top" alt="..." style="height: 18rem;">
                         <div class="card-body ">
-                            <a href="../admin/admin_login.php" class="btn btn-primary ">Already registered</a>
+                            <a href="signin_user.php" class="btn btn-primary ">Generate caseid</a>
                         </div>
                     </div>
                 </div>
