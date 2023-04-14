@@ -9,13 +9,13 @@ if (!isset($_SESSION["username"])) {
 }
 
 include "details.php";
-include "stu_dash_header.php";
+//include "stu_dash_header.php";
 $patientid=$_SESSION["username"];
 
 ?>
 
 <main id="main" class="main">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
 	<div class="pagetitle">
 		<h1>Patient Report</h1>
@@ -109,7 +109,7 @@ $patientid=$_SESSION["username"];
 
 	</div>
     <?php
-    include "stu_dash_footer.php";
+   // include "stu_dash_footer.php";
     ?>
 
 

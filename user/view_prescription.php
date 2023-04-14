@@ -1,12 +1,7 @@
 
  <?php 
 session_start();
-                 $host = 'localhost';
-                 $user = 'root';
-                 $password = '';
-                 $database = 'hospital_management';
-              
-                 $conn = mysqli_connect($host, $user, $password, $database);
+include "details.php";
                  $squery = "SELECT * FROM `pdf_data` where `patientid`='21ce9999'";
 $sdata = mysqli_query($conn, $squery);
 $arrdata = mysqli_fetch_array($sdata );

@@ -1,4 +1,4 @@
-<?php $conn = mysqli_connect("localhost", "root", "", "hospital_management"); ?>
+<?php include "details.php"; ?>
 
 <table border = 1>
   <tr>

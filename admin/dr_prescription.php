@@ -11,18 +11,7 @@ include "admin_header.php";
 ?>
  
  <?php
-    $host = 'localhost';
-    $user = 'root';
-    $password = '';
-    $database = 'hospital_management';
- 
-    $con = mysqli_connect($host, $user, $password, $database);
- 
-    if (!$con){
-        ?>
-            <script>alert("Connection Unsuccessful!!!");</script>
-        <?php
-    }
+  include "details.php";
 ?>
 <main id="main" class="main">
 <link rel="stylesheet" href=

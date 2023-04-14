@@ -11,7 +11,7 @@ include "details.php";
 include "admin_header.php";
 
 $patientid =$_POST["patientid"];
-$sql = "SELECT * FROM `patient` where `patientid`='$patientid' ";
+$sql = "SELECT * FROM `pdf_data` where `patientid`='$patientid' ";
 $resultn = mysqli_query($conn, $sql);
 $row = $resultn->fetch_assoc();
 if ($row) {
@@ -19,7 +19,7 @@ if ($row) {
     ?>
 <script type="text/javascript">
 alert("Something went wrong. Please try again");
-window.location = "rc_form.php";
+window.location = "patien_doc.php";
 </script>
 <?php
 }
@@ -58,20 +58,17 @@ window.location = "rc_form.php";
                 <thead>
                     <tr>
                         <th scope="col">S.No</th>
-                        <th scope="col">Patient ID</th>
-                        <th scope="col">Case ID</th>
+                    
+                        
                         <th scope="col">Name</th>
-                        <th scope="col">Admitted on</th>
-                        <!-- <th scope="col">Discharged on</th> -->
-                        <th scope="col">Reason</th>
-                        <th scope="col">Dr assigned</th>
+                        
                         <th scope="col">Actions</th>
                     </tr>
                 </thead>
                 <tbody>
                     <?php
                     
-                   $sql = "SELECT * FROM `patient` where `patientid`='$patientid' ";
+                   $sql = "SELECT * FROM `pdf_data` where `patientid`='$patientid' ";
                     $result = mysqli_query($conn, $sql);
                     $id = 0;
                     while ($row = mysqli_fetch_assoc($result)) {
@@ -79,13 +76,10 @@ window.location = "rc_form.php";
                         ?>
                     <tr>
                         <th scope='row'> <?php echo$id; ?></th>
-                        <td><?php echo$row['patientid']; ?></td>
+                       
                         <td><?php echo$row['caseid']; ?></td>
-                        <td><?php echo$row['name']; ?></td>
-                        <td><?php echo$row['admitted']; ?></td>
-                        <!-- <td><?php echo$row['discharged']; ?></td> -->
-                        <td><?php echo$row['medicalrsn']; ?></td>
-                        <td><?php echo$row['drassign']; ?></td>
+                        
+                     
                         <td> 
                            
                         <a class="text-white" href="../pdf/<?php echo$row['caseid']; ?>.pdf"><button class=' btn btn-sm btn-primary my-5 text-white ' style="margin: 0.5rem !important;"> Download/View Report</button></a>

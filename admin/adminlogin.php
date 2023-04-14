@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$conn = mysqli_connect('localhost', 'root', '', 'hospital_management');
+include "details.php";
 
 if (isset($_POST['submit'])) {
 
