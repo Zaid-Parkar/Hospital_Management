@@ -12,11 +12,11 @@ window.location = "admin_login.php";
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><link href="../img/RAIT_LOGO.png" rel="icon">
+    <head><link href="../img/hospitallogo.webp" rel="icon">
         <link rel="stylesheet" href="pdfstyle.css">
         <meta charset="utf-8">
-        <title>Concession form print</title>
-        <link href="../img/RAIT LOGO.png" rel="icon">
+        <title>Lifeline Hospital form print</title>
+        <link href="../img/hospitallogo.webp" rel="icon">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>

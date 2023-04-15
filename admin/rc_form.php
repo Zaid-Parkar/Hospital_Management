@@ -12,7 +12,7 @@ include "admin_header.php";
 <main id="main" class="main">
 
     <div class="pagetitle">
-        <h1>Concession Form</h1>
+        <h1>Lifeline Hospital Form</h1>
         <div class="frm m-5">
             <div class="  align-items-center mt-5">
                 <div class="container mt-5">
@@ -21,7 +21,7 @@ include "admin_header.php";
                             <div class="card" style="border-radius: 1rem;">
                                 <div class="card-body m-2">
 
-                                    <h2 class="mb-3 text-center"><b>CONCESSION FORM</b></h2>
+                                    <h2 class="mb-3 text-center"><b>Lifeline Hospital FORM</b></h2>
 
                                     <form action="rc_verify.php" method="POST" autocomplete="off">
 

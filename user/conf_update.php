@@ -25,7 +25,7 @@ if ($arrdata) {
 } else {
     ?>
 <script type="text/javascript">
-alert("The entered RollNo is not registered fill!! concession first");
+alert("The entered RollNo is not registered fill!! Lifeline Hospital first");
 window.location = "concession_form_input.php";
 </script>
 <?php
@@ -89,7 +89,7 @@ $orgDate = $arrdata['DOB'];
     }
     </style>
     <div class="pagetitle">
-        <h1>Update Concession Form</h1>
+        <h1>Update Lifeline Hospital Form</h1>
         <div class="frm m-5">
             <div class="  align-items-center mt-5">
                 <div class="container mt-1">

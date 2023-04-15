@@ -54,16 +54,16 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 		$param_AadharNo = $AadharNo;
 		if (mysqli_stmt_execute($stmt))
 		{
-			$_SESSION['status'] = "Concession form submitted Successfully";
+			$_SESSION['status'] = "Lifeline Hospital form submitted Successfully";
 			
-			?>  <script type="text/javascript">alert("Concession form submitted Successfully");  window.location = "stu_dashboard.php";</script> <?php
+			?>  <script type="text/javascript">alert("Lifeline Hospital form submitted Successfully");  window.location = "stu_dashboard.php";</script> <?php
 
 		}
 		
 		else {
-			$_SESSION['status'] = "Error! Concession form not submitted";
+			$_SESSION['status'] = "Error! Lifeline Hospital form not submitted";
 		
-			?>  <script type="text/javascript">alert("Error! Concession form not submitted");  window.location = "stu_dashboard.php";</script> <?php
+			?>  <script type="text/javascript">alert("Error! Lifeline Hospital form not submitted");  window.location = "stu_dashboard.php";</script> <?php
 		}
 	}
 }

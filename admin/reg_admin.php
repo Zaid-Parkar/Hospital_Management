@@ -36,6 +36,29 @@
  
 }
 </style>
+<style>
+        .gradient-custom-3 {
+            /* fallback for old browsers */
+            background: #84fab0;
+
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+        }
+
+        .gradient-custom-4 {
+            /* fallback for old browsers */
+            background: #84fab0;
+
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+        }
+    </style>
     <head>
         <link href="../img/hospitallogo.webp" rel="icon">
         <link rel="stylesheet" href="../css2/style.css">
@@ -50,6 +73,9 @@
     </head>
 
     <body onload="myFunction()" class="Background">
+    <section class="vh-100 bg-image"
+  style="background-image: url('img/logingfgbg.webp');">
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
     <div id="loading"></div>
 <nav>
 <!--<picture>
@@ -72,7 +98,7 @@
                         <img src="../img/patientgfg.png" class="card-img-top" alt="..." style="height: 18rem;">
                         <div class="card-body">
 
-                            <a href="newreg.php" class="btn btn-primary">Regestir</a>
+                            <a href="newreg.php" class="btn btn-primary">Regester</a>
                         </div>
                     </div>
                 </div>
@@ -87,6 +113,8 @@
                
             </div>
         </div>
+  </div>
+    </section>
         <script>
 		// $(document).ready(function(){
 			// 	$('div#loading').removeAttr('id');

@@ -4,10 +4,6 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
-body {
-  background-color: #f5f9ff !important;
-}
-
 .btn {
   text-align: center !important;
   margin: auto !important;
@@ -29,10 +25,6 @@ body {
 
 h1 {
   font-size: 2rem !important;
-}
-
-.group .active {
-  background-color: #000 !important
 }
 
 h4 {

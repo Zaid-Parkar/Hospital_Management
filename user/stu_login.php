@@ -14,6 +14,29 @@
   }
   
 </style>
+<style>
+        .gradient-custom-3 {
+            /* fallback for old browsers */
+            background: #84fab0;
+
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+        }
+
+        .gradient-custom-4 {
+            /* fallback for old browsers */
+            background: #84fab0;
+
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+        }
+    </style>
     <head>
          <link href="../img/hospitallogo.webp" rel="icon">
         <meta charset="utf-8">
@@ -32,7 +55,7 @@
         }
 
         .parent_div {
-            background-image: url('../img/loginbg.jpg') !important;
+            
             width: 100vw !important;
             height: 100vh !important;
             display: grid !important;
@@ -49,6 +72,9 @@
     </head>
    
     <body   onload="myFunction()">
+    <section class="vh-100 bg-image"
+  style="background-image: url('img/logingfgbg.webp');">
+  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
     <div id="loading"></div>
         <div class=" parent_div">
             <div class="child_div">
@@ -94,21 +120,15 @@
                         Don’t have an account?
                     </span>
 
-                    <a class="txt2" href="stu_reg.php" style="text-decoration: none;">
-                        Register
-                    </a>
-                </div>
-                <div class="text-center p-t-115">
-                    <span class="txt1">
-                        Forgot password?
-                    </span>
-
                     <a class="txt2" href="#" style="text-decoration: none;">
                         contact admin
                     </a>
                 </div>
+                
             </div>
         </div>
+  </div>
+    </section>
         <script>
 		// $(document).ready(function(){
 			// 	$('div#loading').removeAttr('id');

@@ -39,12 +39,12 @@ $branch = $row["Branch"];
     }
     </style>
     <div class="pagetitle">
-        <h1>Concession Form</h1>
+        <h1>Lifeline Hospital Form</h1>
         <div class="frm m-5">
             <div class="  align-items-center mt-5">
                 <div class="row justify-content-center">
                     <div class="col-md-6 m-auto " style="text-align: center;">
-                        <h3>Reissue / Update concession form </h3>
+                        <h3>Reissue / Update Lifeline Hospital form </h3>
                         <a class="text-white" href="conf_update.php?rn=<?php echo $row["RollNo"]; ?>"><button class="col-md-4 btn text-white btn-rounded " style="background-color:#737ee0;">Reissue</button></a>
 
                     </div>

@@ -42,20 +42,20 @@ background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244
 
               <form action="caseid.php" method="POST">
               <div class="form-outline mb-1">
-                  <input type="text" name="patientid" id="form3Example4cg" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example4cg">Patientid</label>
+                  <input type="text" name="patientid" id="form3Example4cg" class="form-control form-control-lg" placeholder="Patientid" />
+                  <label class="form-label" for="form3Example4cg"></label>
                 </div>
                 <div class="form-outline mb-1">
-                  <input type="text" name="admitted" id="form3Example4cg" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example4cg">admitted</label>
+                  <input type="text" name="admitted" id="form3Example4cg" class="form-control form-control-lg" placeholder="Admitted on" />
+                  <label class="form-label" for="form3Example4cg"></label>
                 </div>
                 <div class="form-outline mb-1">
-                  <input type="text" name="medicalrsn" id="form3Example4cg" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example4cg">medicalrsn</label>
+                  <input type="text" name="medicalrsn" id="form3Example4cg" class="form-control form-control-lg" placeholder="Cause" />
+                  <label class="form-label" for="form3Example4cg"></label>
                 </div>
                 <div class="form-outline mb-1">
-                  <input type="text" name="drassign" id="form3Example4cg" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example4cg">drassign</label>
+                  <input type="text" name="drassign" id="form3Example4cg" class="form-control form-control-lg" placeholder="Dr assigned" />
+                  <label class="form-label" for="form3Example4cg"></label>
                 </div>
               
 

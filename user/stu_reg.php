@@ -96,7 +96,7 @@
 
                                                 <!-- 2 column grid layout with text inputs for the first and last names -->
 <div class="mb-2">
-<span style="text-align: center;font-size: 1rem;">Enter your information carefully, as it will appear on your concession form.Password is case sensitive ! </span>
+<span style="text-align: center;font-size: 1rem;">Enter your information carefully, as it will appear on your Lifeline Hospital form.Password is case sensitive ! </span>
 </div>
                                                 <!-- Submit button -->
                                                 <div class="col-md-12 " style="text-align: center !important;margin: auto !important;">
