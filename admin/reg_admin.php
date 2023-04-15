@@ -95,7 +95,7 @@
                 <p style="margin-bottom: 3rem;"><b class="MAIN-HEAD"></b></p> 
                 <div class="col-6 ">
                     <div class="card shadow " style="width: 18rem;">
-                        <img src="../img/patientgfg.png" class="card-img-top" alt="..." style="height: 18rem;">
+                        <img src="../img/user_logo.png" class="card-img-top" alt="..." style="height: 18rem;">
                         <div class="card-body">
 
                             <a href="newreg.php" class="btn btn-primary">Regester</a>
@@ -104,7 +104,7 @@
                 </div>
                 <div class="col-6">
                     <div class="card shadow " style="width: 18rem;">
-                        <img src="../img/admin_logo.webp" class="card-img-top" alt="..." style="height: 18rem;">
+                        <img src="../img/admin_logo.png" class="card-img-top" alt="..." style="height: 18rem;">
                         <div class="card-body ">
                             <a href="signin_user.php" class="btn btn-primary ">Generate caseid</a>
                         </div>

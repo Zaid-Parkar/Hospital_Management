@@ -38,7 +38,7 @@ if(isset($_GET['delete'])){
                         <th scope="col">Admitted on</th>
                         <th scope="col">Reason</th>
                         <th scope="col">Dr assigned</th>
-                        <th scope="col">Actions</th>
+                        
                     </tr>
                 </thead>
                 <tbody>
@@ -58,9 +58,9 @@ if(isset($_GET['delete'])){
                         <td><?php echo$row['admitted']; ?></td>
                         <td><?php echo$row['medicalrsn']; ?></td>
                         <td><?php echo$row['drassign']; ?></td>
-                        <td> 
-                        <a class="text-white" href="patient_details.php?patientid=<?php echo $row["patientid"];  ?>"> <button class=' btn btn-sm btn-primary my-5 text-white ' style="margin: 0.5rem !important;"> more details</button></a>
-                        </td>
+                        
+                        <!-- <a class="text-white" href="patient_details.php?patientid=<php echo $row["patientid"];  ?>"> <button class=' btn btn-sm btn-primary my-5 text-white ' style="margin: 0.5rem !important;"> more details</button></a> -->
+                        
 
                     </tr>
                     <?php

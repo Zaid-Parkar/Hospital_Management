@@ -18,7 +18,7 @@ include "admin_header.php";
 if(isset($_GET['delete'])){
     $id = $_GET['delete'];
     $delete = true;
-    $sql = "DELETE FROM `registration` WHERE `id` = $id";
+    $sql = "DELETE FROM `registration`";
     $result = mysqli_query($conn, $sql);
   }
   
@@ -30,18 +30,18 @@ if(isset($_GET['delete'])){
             <table class="table" id="myTable">
                 <thead>
                     <tr>
-                        <th scope="col">S.No</th>
-                        <th scope="col">ID</th>
+                    <th scope="col-6">S.No</th>
+                        <th scope="col">Patient ID</th>
+                       
                         <th scope="col">Name</th>
-                        <th scope="col">Contact No</th>
-                        <th scope="col">Admitted on</th>
-                        <th scope="col">Reason</th>
+                       
                         <th scope="col">Actions</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <?php
-                    $sql = "SELECT * FROM `registration`";
+                    <?php 
+                    $sql = "SELECT DISTINCT `patientid`,`name` FROM `patient`";
+                    
                     $result = mysqli_query($conn, $sql);
                     $id = 0;
                     while ($row = mysqli_fetch_assoc($result)) {
@@ -49,13 +49,12 @@ if(isset($_GET['delete'])){
                         ?>
                     <tr>
                         <th scope='row'> <?php echo$id; ?></th>
-                        <td><?php echo$row['RollNo']; ?></td>
-                        <td><?php echo$row['Name']; ?></td>
-                        <td><?php echo$row['Year']; ?></td>
-                        <td><?php echo$row['Branch']; ?></td>
-                        <td><?php echo$row['Contactno']; ?></td>
-                        <td> <button class='delete btn btn-sm btn-primary my-5 ' id=d<?php echo $row["id"]; ?>  style="margin: 0.5rem !important;">Delete</button>
-                        <a class="text-white" href="update_details.php?id=<?php echo $row["id"];  ?>"> <button class=' btn btn-sm btn-primary my-5 text-white ' style="margin: 0.5rem !important;"> Update</button></a>
+                        <td><?php echo$row['patientid']; ?></td>
+                        
+                        <td><?php echo$row['name']; ?></td>
+                       
+                        <td> 
+                        <a class="text-white" href="patient_details.php?patientid=<?php echo $row["patientid"];  ?>"> <button class=' btn btn-sm btn-primary my-5 text-white ' style="margin: 0.5rem !important;"> more details</button></a>
                         </td>
 
                     </tr>

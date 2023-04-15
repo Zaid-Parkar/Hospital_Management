@@ -59,7 +59,7 @@
 
                 <li class="nav-item"> <a class="nav-link collapsed  " href="admin_dashboard.php"> <i class="bi bi-grid"></i> <span>Dashboard</span> </a></li>
                 <li class="nav-item"> <a class="nav-link collapsed" href="stu_reg.php"> <i class="bi bi-journal-text"></i> <span> Patient Details</span> </a></li>
-                <li class="nav-item"> <a class="nav-link collapsed" href="chat.php"> <i class="bi bi-journal-text"></i> <span>Chat with patient</span> </a></li>
+                <!-- <li class="nav-item"> <a class="nav-link collapsed" href="chat.php"> <i class="bi bi-journal-text"></i> <span>Chat with patient</span> </a></li> -->
                 <li class="nav-item"> <a class="nav-link collapsed" href="dr_prescription.php"> <i class="bi bi-journal-text"></i> <span>Patient prescription</span> </a></li>
                 <li class="nav-item"> <a class="nav-link collapsed" href="patient_report.php"> <i class="bi bi-journal-text"></i> <span>Patient report</span> </a></li>
                 <li class="nav-item"> <a class="nav-link collapsed" href="view.php"> <i class="bi bi-journal-text"></i> <span>Patient Documnents</span> </a></li>

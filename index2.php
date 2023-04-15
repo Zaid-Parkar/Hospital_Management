@@ -31,6 +31,20 @@
         }
     </style>
     <style>
+.zoom {
+ 
+  background-color: green;
+  transition: transform .2s; /* Animation */
+
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
+
+    <style>
         .gradient-custom-3 {
             /* fallback for old browsers */
             background: #84fab0;
@@ -51,6 +65,12 @@
 
             /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+        }
+        .card{
+            background: #B2FEFA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         }
     </style>
 
@@ -79,9 +99,9 @@
 
                 <div class="row child_div">
                     <p style="margin-bottom: 3rem;"><b class="MAIN-HEAD"></b></p>
-                    <div class="col-4 ">
-                        <div class="card shadow " style="width: 18rem;">
-                            <img src="img/patientgfg.png" class="card-img-top" alt="..." style="height: 18rem;">
+                    <div class="col-4  ">
+                        <div class="card shadow zoom" style="width: 18rem;">
+                            <img src="img/user_logo.png" class="card-img-top" alt="..." style="height: 18rem;">
                             <div class="card-body">
 
                                 <a href="user/stu_login.php" class="btn btn-primary">PATIENT LOGIN</a>
@@ -89,18 +109,18 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="card shadow " style="width: 18rem;">
-                            <img src="img/admin_logo.webp" class="card-img-top" alt="..." style="height: 18rem;">
+                        <div class="card shadow zoom" style="width: 18rem;">
+                            <img src="img/doctor.png" class="card-img-top" alt="..." style="height: 18rem;">
                             <div class="card-body ">
-                                <a href="admin/admin_login.php" class="btn btn-primary ">Doctor LOGIN</a>
+                                <a href="admin/admin_login.php" class="btn btn-primary ">DOCTOR LOGIN</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="card shadow " style="width: 18rem;">
-                            <img src="img/admin_logo.webp" class="card-img-top" alt="..." style="height: 18rem;">
+                        <div class="card shadow zoom" style="width: 18rem;">
+                            <img src="img/admin_logo.png" class="card-img-top" alt="..." style="height: 18rem;">
                             <div class="card-body ">
-                                <a href="admin/reg_admin.php" class="btn btn-primary ">ADMIN LOGIN</a>
+                                <a href="admin/tech_admin.php" class="btn btn-primary ">ADMIN LOGIN</a>
                                 <img src="" alt="">
                             </div>
                         </div>

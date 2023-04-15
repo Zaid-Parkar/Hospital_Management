@@ -81,7 +81,7 @@ background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, F
 
                                             <h1 class="mb-5 text-center">LOGIN</h1>
 
-                                            <form action="adminlogin.php" method="POST" autocomplete="off">
+                                            <form action="madminlogin.php" method="POST" autocomplete="off">
 
                                                 <div class="form-outline mb-1 ">
                                                     <input type="text" id="form6Example3" name="username" class="form-control " placeholder="Username" required />
