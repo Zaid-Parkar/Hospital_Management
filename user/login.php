@@ -28,7 +28,7 @@ exit;
 
 include "details.php";
 
-$username = $password = "admin";
+$username = $password = "";
 //KPT4UuQLnPntxN
 $err = "";
 

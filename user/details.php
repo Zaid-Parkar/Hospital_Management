@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username= "admin";
-$password = "admin";
+$username= "root";
+$password = "";
 //KPT4UuQLnPntxN
 $database = "hospital_management";
 

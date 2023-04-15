@@ -26,7 +26,7 @@ $row = $resultn->fetch_assoc();
     <head>
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <title>Student-Dashboard</title>
+       
         <meta name="robots" content="noindex, nofollow">
         <meta content="" name="description">
         <meta content="" name="keywords">
@@ -50,7 +50,7 @@ $row = $resultn->fetch_assoc();
     
     <div id="loading"></div>
         <header id="header" class="header fixed-top d-flex align-items-center">
-            <div class="d-flex align-items-center justify-content-between"> <i class="bi bi-list toggle-sidebar-btn" style="margin-right: 1rem;"></i><img src="../img/hospitallogo.png" style="width: 5rem; height:auto;">  <a href="stu_dashboard.php" class="logo d-flex align-items-center"> <span class="d-none d-lg-block"></span> </a></div>
+            <div class="d-flex align-items-center justify-content-between"> <i class="bi bi-list toggle-sidebar-btn" style="margin-right: 1rem;"></i><img src="../img/navlogo.png" style="width: 10rem; height:auto;">  <a href="stu_dashboard.php" class="logo d-flex align-items-center"> <span class="d-none d-lg-block"></span> </a></div>
 
             <nav class="header-nav ms-auto">
                 <ul class="d-flex align-items-center">
@@ -66,7 +66,7 @@ $row = $resultn->fetch_assoc();
         <aside id="sidebar" class="sidebar">
             <ul class="sidebar-nav group" id="sidebar-nav">
 
-                <li class="nav-heading">Menu</li>
+                <li class="nav-heading"><b>Menu</b></li>
                 <li class="nav-item"> <a class="nav-link collapsed nav_click" href="myprofile.php"> <i class="bi bi-person"></i> <span>My profile</span> </a></li>
 
                 <li class="nav-item"> <a class="nav-link collapsed " href="stu_dashboard.php"> <i class="bi bi-grid"></i> <span>Dashboard</span> </a></li>

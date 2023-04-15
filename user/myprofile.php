@@ -11,6 +11,7 @@ if (!isset($_SESSION["username"])) {
 include "details.php";
 include "stu_dash_header.php";
 ?>
+<title>My Profile</title>
 <style>
     /* Card */
     .card2 {

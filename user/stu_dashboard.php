@@ -11,10 +11,10 @@ if (!isset($_SESSION["username"])) {
 include "details.php";
 include "stu_dash_header.php";
 ?>
-
+<title>Weekly schedule</title>
 <main id="main" class="main">
     <div class="pagetitle">
-        <h1>Dashboard</h1>
+        <h1>Weekly Schedule</h1>
         <!-- <?php echo $_SESSION["username"]; ?> -->
         <div class="container">
                 <div class="timetable-img text-center">

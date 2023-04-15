@@ -9,7 +9,7 @@ if (!isset($_SESSION["username"])) {
 }
 include "details.php";
 include "stu_dash_header.php";
-?>
+?><title>Contact us</title>
 <style>
     /* Card */
     .card2 {
@@ -35,24 +35,26 @@ include "stu_dash_header.php";
     <div class="pagetitle">
     <div class="card2 m-3" style="width: 25rem; margin-top: 3rem;">
             <div class="card2-body">
-<h1 class="m-3">Contact</h1>
+<h1 class="m-3">Contact us</h1>
     
     <form method="post" action="send-email.php">
-        <label class="m-2" for="name">Dr name</label>
+        <label class="m-2" for="name" style="width: 80px;">Dr name</label>
         <input class="m-2" type="text" name="name" id="name" required> <br>
         
-        <label class="m-2" for="email">Your email</label>
+        <label class="m-2" for="email" style="width: 80px;">Your email</label>
         <input class="m-2" type="email" name="email" id="email" required><br>
         
-        <label class="m-2" for="subject">Subject</label>
+        <label class="m-2" for="subject" style="width: 80px;">Subject</label>
         <input  class="m-2" type="text" name="subject" id="subject" required><br>
         
-        <label class="m-2" for="message">Message</label>
+        <label class="m-2" for="message" style="width: 80px;">Message</label>
         <textarea class="m-2" name="message" id="message" required></textarea><br>
         
         <br>
         
-        <button class="m-2">Send</button>
+        <div style="width: auto;text-align: center;">
+        <button class="m-3" style="width: 120px;text-align: center;">Send</button>
+        </div>
     </form>
             </div></div>
         <?php

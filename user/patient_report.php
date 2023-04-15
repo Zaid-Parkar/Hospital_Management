@@ -24,6 +24,7 @@ window.location = "rc_form.php";
 <?php
 }
 ?>
+<title>Reports</title>
 <style>
     /* Card */
     .card2 {
@@ -47,12 +48,12 @@ window.location = "rc_form.php";
 
 <main id="main" class="main">
     <div class="pagetitle">
-        <h1>Detailed Information</h1>
+        <h1>Your Previous Reports</h1>
        
              
 
     <div class="pagetitle" style="margin-top: 10px;">
-        <h2>Your Previous Reports</h2>
+        
         <div class="container my-4">
             <table class="table" id="myTable">
                 <thead>

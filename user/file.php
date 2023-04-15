@@ -13,12 +13,12 @@ include "stu_dash_header.php";
 $patientid=$_SESSION["username"];
 
 ?>
-
+<title>Upload Documents</title>
 <main id="main" class="main">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
 	<div class="pagetitle">
-		<h1>Patient Report</h1>
+		<h1>Upload Documents</h1>
 		<div class="frm m-5">
 			<div class="  align-items-center mt-5">
 				<div class="container mt-5">
@@ -28,8 +28,9 @@ $patientid=$_SESSION["username"];
 								<div class="card-body m-2">
 
 									<h2 class="mb-3 text-center"><b>Upload your other reports</b></h2>
-									<strong>Enter report name and Upload pdf</strong>
+									
 									<form method="post" enctype="multipart/form-data">
+                                    
     <?php
     // If submit button is clicked
     if (isset($_POST['submit'])) {
@@ -117,14 +118,15 @@ if ($iquery) {
     } // end if
     ?>
 
-    <div class="form-input py-2">
-        <div class="form-group">
+    <div class="form-input py-1">
+    
+        <div class="form-group m-3"><p class="ml-5"><strong class="ml-5">Enter report name and select pdf file</strong></p>
             <input type="file" name="pdf_file" class="form-control" accept=".pdf" required />
         </div>
-        <div class="form-group">
+        <div class="form-group m-3">
             <input type="text" class="form-control" placeholder="Enter Report name" name="filename">
         </div>
-        <div class="form-group">
+        <div class="form-group m-3">
             <input type="submit" class="btnRegister" name="submit" value="Submit">
         </div>
     </div>
