@@ -47,19 +47,21 @@ include "admin_header.php";
 							move_uploaded_file($file_tmp,"../pdf/$name.pdf" );
             
 							// Insert the submitted data from the form into the table
-							$insertquery =
-							"INSERT INTO pdf_data(patientid,filename) VALUES('$name','$file_name')";
+							$insertquery ="INSERT INTO pdf_data(patientid,filename) VALUES('$name','$file_name')";
+							
 							
 							// Execute insert query
 							$iquery = mysqli_query($conn, $insertquery);	
-
+							if (!$iquery) {
+								printf("Error: %s\n", mysqli_error($conn));
+							  }
 								if ($iquery)
 							{							
 					?>											
 								<div class=
 								"alert alert-success alert-dismissible fade show text-center">
 									<a class="close" data-dismiss="alert" aria-label="close">
-									×
+									
 									</a>
 									<strong>Success!</strong> Data submitted successfully.
 								</div>
@@ -71,7 +73,7 @@ include "admin_header.php";
 								<div class=
 								"alert alert-danger alert-dismissible fade show text-center">
 									<a class="close" data-dismiss="alert" aria-label="close">
-									×
+									
 									</a>
 									<strong>Failed!</strong> Try Again!
 								</div>
@@ -84,7 +86,7 @@ include "admin_header.php";
 								<div class=
 								"alert alert-danger alert-dismissible fade show text-center">
 								<a class="close" data-dismiss="alert" aria-label="close">
-									×
+									
 								</a>
 								<strong>Failed!</strong> File must be uploaded in PDF format!
 								</div>
