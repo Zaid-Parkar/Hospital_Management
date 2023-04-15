@@ -50,7 +50,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="#"><span class="text-primary">Life</span>line</a>
+        <a class="navbar-brand"style="font-size: 30px;  href="#"><span class="text-primary"><h2>Life</span>line</h2></a>
 
         
 

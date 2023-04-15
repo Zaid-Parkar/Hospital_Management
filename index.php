@@ -21,7 +21,7 @@
 
   <link rel="stylesheet" href="assets2/css/theme.css">
 </head>
-<body>
+<body style="background-color: #B2FEFA;">
 
   <!-- Back to top button -->
   <div class="back-to-top"></div>
@@ -51,7 +51,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="index.php "><span class="text-primary">Life</span>line</a>
+        <a class="navbar-brand" style="font-size: 30px; href="index.php "><span class="text-primary" >Life</span>line</a>
 
      
 

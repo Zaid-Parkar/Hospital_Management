@@ -35,6 +35,12 @@
   background-size: cover;
  
 }
+.card{
+            background: #B2FEFA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
 </style>
 <style>
         .gradient-custom-3 {
@@ -98,7 +104,7 @@
                         <img src="../img/user_logo.png" class="card-img-top" alt="..." style="height: 18rem;">
                         <div class="card-body">
 
-                            <a href="newreg.php" class="btn btn-primary">Regester</a>
+                            <a href="newreg.php" class="btn btn-primary">Register</a>
                         </div>
                     </div>
                 </div>

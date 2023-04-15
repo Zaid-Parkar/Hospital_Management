@@ -37,8 +37,7 @@
 background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-        }
-        </style>
+        }     </style>
         <style>
         .gradient-custom-3 {
             /* fallback for old browsers */
@@ -97,7 +96,7 @@ background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, F
 
                                                 <!-- Submit button -->
                                                 <div class="col-md-12 mt-5" style="text-align: center !important;margin: auto !important;">
-                                                    <button type="submit" name="submit" class="col-md-4 btn text-white  btn-rounded "style="background-color: #737ee0;">login</button>
+                                                    <button type="submit" name="submit" class="col-md-4 btn text-white  btn-rounded "style="background-color:#737ee0;">login</button>
                                                 </div>
 
                                             </form>
