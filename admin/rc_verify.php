@@ -12,7 +12,7 @@
     }
     
   </style>
-   <link href="../img/hospitallogo.webp" rel="icon">
+   <link href="../img/hospitallogo.png" rel="icon">
  <body onload="myFunction()">
  <div id="loading"></div>
 <?php

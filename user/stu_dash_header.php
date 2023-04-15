@@ -30,7 +30,7 @@ $row = $resultn->fetch_assoc();
         <meta name="robots" content="noindex, nofollow">
         <meta content="" name="description">
         <meta content="" name="keywords">
-         <link href="../img/hospitallogo.webp" rel="icon">
+         <link href="../img/hospitallogo.png" rel="icon">
 
         <link href="../https://fonts.gstatic.com" rel="preconnect">
         <link href="../https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -50,7 +50,7 @@ $row = $resultn->fetch_assoc();
     
     <div id="loading"></div>
         <header id="header" class="header fixed-top d-flex align-items-center">
-            <div class="d-flex align-items-center justify-content-between"> <i class="bi bi-list toggle-sidebar-btn" style="margin-right: 1rem;"></i><img src="../img/hospitallogo.webp" style="width: 5rem; height:auto;">  <a href="stu_dashboard.php" class="logo d-flex align-items-center"> <span class="d-none d-lg-block"></span> </a></div>
+            <div class="d-flex align-items-center justify-content-between"> <i class="bi bi-list toggle-sidebar-btn" style="margin-right: 1rem;"></i><img src="../img/hospitallogo.png" style="width: 5rem; height:auto;">  <a href="stu_dashboard.php" class="logo d-flex align-items-center"> <span class="d-none d-lg-block"></span> </a></div>
 
             <nav class="header-nav ms-auto">
                 <ul class="d-flex align-items-center">

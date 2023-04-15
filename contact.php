@@ -6,7 +6,7 @@
 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <meta name="copyright" content="Lifeline, https://macodeid.com/">
+  <meta name="copyright" content="Lifeline, #">
 
   <title>Lifeline</title>
 
@@ -33,7 +33,7 @@
             <div class="site-info">
               <a href="#"><span class="mai-call text-primary"></span> +00 123 4455 6666</a>
               <span class="divider">|</span>
-              <a href="#"><span class="mai-mail text-primary"></span> mail@example.com</a>
+              <a href="#"><span class="mai-mail text-primary"></span> mail@lifeline.com</a>
             </div>
           </div>
           <div class="col-sm-4 text-right text-sm">
@@ -52,14 +52,7 @@
       <div class="container">
         <a class="navbar-brand" href="#"><span class="text-primary">Life</span>line</a>
 
-        <form action="#">
-          <div class="input-group input-navbar">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="icon-addon1"><span class="mai-search"></span></span>
-            </div>
-            <input type="text" class="form-control" placeholder="Enter keyword.." aria-label="Username" aria-describedby="icon-addon1">
-          </div>
-        </form>
+        
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -189,20 +182,20 @@
           <a href="#" class="footer-link">701-573-7582</a>
           <a href="#" class="footer-link">healthcare@temporary.net</a>
 
-          <h5 class="mt-3">Social Media</h5>
+          <!-- <h5 class="mt-3">Social Media</h5>
           <div class="footer-sosmed mt-3">
             <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a>
             <a href="#" target="_blank"><span class="mai-logo-twitter"></span></a>
             <a href="#" target="_blank"><span class="mai-logo-google-plus-g"></span></a>
             <a href="#" target="_blank"><span class="mai-logo-instagram"></span></a>
             <a href="#" target="_blank"><span class="mai-logo-linkedin"></span></a>
-          </div>
+          </div> -->
         </div>
       </div>
 
       <hr>
 
-      <p id="copyright">Copyright &copy; 2020 <a href="https://macodeid.com/" target="_blank">Lifeline</a>. All right reserved</p>
+      <p id="copyright">Copyright &copy; 2023 <a href="#" target="_blank">Lifeline</a>. All right reserved</p>
     </div>
   </footer>
 
