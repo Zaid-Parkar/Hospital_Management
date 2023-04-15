@@ -61,7 +61,7 @@ include "admin_header.php";
 								<div class=
 								"alert alert-success alert-dismissible fade show text-center">
 									<a class="close" data-dismiss="alert" aria-label="close">
-									
+									×
 									</a>
 									<strong>Success!</strong> Data submitted successfully.
 								</div>
@@ -73,7 +73,7 @@ include "admin_header.php";
 								<div class=
 								"alert alert-danger alert-dismissible fade show text-center">
 									<a class="close" data-dismiss="alert" aria-label="close">
-									
+									×
 									</a>
 									<strong>Failed!</strong> Try Again!
 								</div>
@@ -86,7 +86,7 @@ include "admin_header.php";
 								<div class=
 								"alert alert-danger alert-dismissible fade show text-center">
 								<a class="close" data-dismiss="alert" aria-label="close">
-									
+									×
 								</a>
 								<strong>Failed!</strong> File must be uploaded in PDF format!
 								</div>
