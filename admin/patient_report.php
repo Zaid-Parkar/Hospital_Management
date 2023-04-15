@@ -9,7 +9,7 @@ if (!isset($_SESSION["username"])) {
 }
 include "admin_header.php";
 ?>
-
+<title>Report</title>
 <?php
 include "details.php";
 ?>
@@ -27,7 +27,7 @@ include "details.php";
 								<div class="card-body m-2">
 
 									<h2 class="mb-3 text-center"><b>Patient Report</b></h2>
-									<strong>Enter Patient caseid and Upload pdf</strong>
+									<strong>Enter Patientid,caseid and Upload pdf</strong>
 									<form method="post" enctype="multipart/form-data">
 										<?php
 										// If submit button is clicked

@@ -1,3 +1,4 @@
+<title>Patient details</title>
 <?php
 session_start();
 if (!isset($_SESSION["username"])) {
@@ -21,6 +22,7 @@ if ($row) {
 alert("Something went wrong. Please try again");
 window.location = "rc_form.php";
 </script>
+
 <?php
 }
 ?>

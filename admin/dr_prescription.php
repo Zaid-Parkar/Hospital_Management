@@ -9,7 +9,7 @@ window.location = "admin_login.php";
 }
 include "admin_header.php";
 ?>
- 
+ <title>Prescription</title>
  <?php
   include "details.php";
 ?>
@@ -98,7 +98,7 @@ include "admin_header.php";
 					<div class="form-input py-2">
 						<div class="form-group">
 							<input type="text" class="form-control"
-								placeholder="Enter your name" name="name">
+								placeholder="Enter Patientid" name="name">
 						</div>								
 						<div class="form-group">
 							<input type="file" name="pdf_file"

@@ -18,7 +18,7 @@
         <link href="../https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <title>Admin-Dashboard</title>
+        
         <meta name="robots" content="noindex, nofollow">
         <meta content="" name="description">
         <meta content="" name="keywords">
@@ -40,7 +40,7 @@
     <body onload="myFunction()">
         <div id="loading"></div>
         <header id="header" class="header fixed-top d-flex align-items-center">
-            <div class="d-flex align-items-center justify-content-between"> <i class="bi bi-list toggle-sidebar-btn" style="margin-right: 1rem;"></i><img src="../img/hospitallogo.png" style="width: 5rem; height:auto;"> <a href="stu_dashboard.php" class="logo d-flex align-items-center"> <span class="d-none d-lg-block"></span> </a></div>
+            <div class="d-flex align-items-center justify-content-between"> <i class="bi bi-list toggle-sidebar-btn" style="margin-right: 1rem;"></i><img src="../img/navlogo.png" style="width: 10rem; height:auto;"> <a href="stu_dashboard.php" class="logo d-flex align-items-center"> <span class="d-none d-lg-block"></span> </a></div>
             <nav class="header-nav ms-auto">
                 <ul class="d-flex align-items-center">
                     <li class="nav-item d-block d-lg-none"> <a class="nav-link nav-icon search-bar-toggle " href="#"> <i class="bi bi-search"></i> </a></li>

@@ -20,7 +20,7 @@ if ($row) {
 <script type="text/javascript">
 alert("Something went wrong. Please try again");
 window.location = "patien_doc.php";
-</script>
+</script> <TItle>Patitent details</TItle>
 <?php
 }
 ?>

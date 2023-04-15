@@ -1,10 +1,11 @@
+<title>Dashboard</title>
 <?php
 session_start();
 if (!isset($_SESSION["username"])) {
     ?>
 <script type="text/javascript">
 window.location = "admin_login.php";
-</script>
+</script> 
 <?php
 }
 include "details.php";

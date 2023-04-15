@@ -9,6 +9,7 @@ window.location = "admin_login.php";
 }
 include "admin_header.php";
 ?>
+<title>Documents</title>
 <main id="main" class="main">
 
     <div class="pagetitle">
