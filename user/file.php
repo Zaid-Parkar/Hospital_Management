@@ -9,7 +9,7 @@ if (!isset($_SESSION["username"])) {
 }
 
 include "details.php";
-//include "stu_dash_header.php";
+include "stu_dash_header.php";
 $patientid=$_SESSION["username"];
 
 ?>
@@ -109,7 +109,7 @@ $patientid=$_SESSION["username"];
 
 	</div>
     <?php
-   // include "stu_dash_footer.php";
+   include "stu_dash_footer.php";
     ?>
 
 

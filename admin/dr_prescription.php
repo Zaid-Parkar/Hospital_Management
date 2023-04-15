@@ -51,7 +51,7 @@ include "admin_header.php";
 							"INSERT INTO pdf_data(patientid,filename) VALUES('$name','$file_name')";
 							
 							// Execute insert query
-							$iquery = mysqli_query($con, $insertquery);	
+							$iquery = mysqli_query($conn, $insertquery);	
 
 								if ($iquery)
 							{							
