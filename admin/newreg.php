@@ -37,7 +37,7 @@ background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-12 col-md-9 col-lg-7 col-xl-6">
           <div class="card" style="border-radius: 15px;">
-            <div class="card-body p-5">
+            <div class="card-body p-3">
               <h2 class="text-uppercase text-center mb-3">Create an account</h2>
 
               <form action="newregcode.php" method="POST">

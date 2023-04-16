@@ -35,7 +35,7 @@
   background-size: cover;
  
 }
-.card{
+.card1{
             background: #B2FEFA;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -98,7 +98,7 @@ background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, F
         <div class="text-center parent_div">
 
             <div class="row child_div">
-                <p style="margin-bottom: 3rem;"><b class="MAIN-HEAD"></b></p> 
+                <p style="margin-bottom: 1rem;"><b class="MAIN-HEAD"></b></p> 
                 <div class="col-6 ">
                     <div class="card shadow " style="width: 18rem;">
                         <img src="../img/user_logo.png" class="card-img-top" alt="..." style="height: 18rem;">
