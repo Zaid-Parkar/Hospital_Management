@@ -372,7 +372,7 @@
           <a href="#" class="footer-link">701-573-7582</a>
           <a href="#" class="footer-link">healthcare@temporary.net</a>
 
-          <h5 class="mt-3">Social Media</h5>
+         
           
         </div>
       </div>

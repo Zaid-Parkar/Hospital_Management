@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                         ?>
 <script type="text/javascript">
- alert("Invalid Roll No or Password");
+ alert("Invalid Patientid or Password");
  window.location = "stu_login.php";
 </script> <?php
                     }
@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             } else {
                 ?>
 <script type="text/javascript">
-alert("Account for this Aadhar Number is not Registered");
+alert("Account for this patientid is not Registered");
 window.location = "stu_login.php";
 </script>
 <?php

@@ -27,7 +27,7 @@
 
         .child_div {
             width: 100vw !important;
-            height: 70vh !important;
+            height: 100vh !important;
         }
     </style>
     <style>
@@ -97,9 +97,9 @@ background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, F
            
             <div class="text-center parent_div">
 
-                <div class="row child_div">
+                <div class="row child_div ">
                     <p style="margin-bottom: 3rem;"><b class="MAIN-HEAD"></b></p>
-                    <div class="col-4  ">
+                    <div class="col-m-4 col-lg-4 mb-5  ">
                         <div class="card shadow zoom" style="width: 18rem;">
                             <img src="img/user_logo.png" class="card-img-top" alt="..." style="height: 18rem;">
                             <div class="card-body">
@@ -108,7 +108,7 @@ background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, F
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-m-4 col-lg-4 mb-5">
                         <div class="card shadow zoom" style="width: 18rem;">
                             <img src="img/doctor.png" class="card-img-top" alt="..." style="height: 18rem;">
                             <div class="card-body ">
@@ -116,7 +116,7 @@ background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, F
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-m-4 col-lg-4 mb-5">
                         <div class="card shadow zoom" style="width: 18rem;">
                             <img src="img/admin_logo.png" class="card-img-top" alt="..." style="height: 18rem;">
                             <div class="card-body ">

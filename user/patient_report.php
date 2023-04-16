@@ -52,11 +52,11 @@ window.location = "rc_form.php";
        
              
 
-    <div class="pagetitle" style="margin-top: 10px;">
+    <div class="pagetitle" style="margin-top: 10px;"  >
         
-        <div class="container my-4">
+        <div class="container my-4" > 
             <table class="table" id="myTable">
-                <thead>
+                <thead >
                     <tr>
                         <th scope="col">S.No</th>
                         <th scope="col">Patient ID</th>
@@ -136,6 +136,50 @@ window.location = "rc_form.php";
         </script>
 
 
+<style>
+    
+@media(max-width:400px) {
+    html {
+      font-size: 50% !important;
+    }
+  
+  }
+  
+  @media(min-width:401px) and (max-width:672px) {
+    html {
+      font-size: 65% !important;
+    }
+  
+  }
+  
+  @media(min-width:673px) and (max-width:768px) {
+    html {
+      font-size: 10% !important;
+    }
+  
+  }
+  
+  @media(min-width:769px) and (max-width:1000px) {
+    html {
+      font-size: 10% !important;
+    }
+  
+  }
+  
+  @media(min-width:1001px) and (max-width:1200px) {
+    html {
+      font-size: 20%;
+    }
+  
+  }
+  
+  @media(min-width:1201px) {
+    html {
+      font-size: 100%;
+    }
+  
+  }
+</style>
         
         <?php
         include "stu_dash_footer.php";
